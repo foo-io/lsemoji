@@ -1,14 +1,14 @@
 <script>
-	document.addEventListener('DOMContentLoaded', function(){ // сбрабатываем скрипт после DOM
+	document.addEventListener('DOMContentLoaded', function(){ // Г±ГЎГ°Г ГЎГ ГІГ»ГўГ ГҐГ¬ Г±ГЄГ°ГЁГЇГІ ГЇГ®Г±Г«ГҐ DOM
 
 		$(document).ready(function(e) {
 		
-			$( "textarea" ).emojionePicker({ // подключаем длЯ textarea
-			  pickerTop: 5, // отступ иконки
-			  pickerRight: 5 // отступ иконки
+			$( "textarea" ).emojionePicker({ // ГЇГ®Г¤ГЄГ«ГѕГ·Г ГҐГ¬ Г¤Г«Гџ textarea
+			  pickerTop: 5, // Г®ГІГ±ГІГіГЇ ГЁГЄГ®Г­ГЄГЁ
+			  pickerRight: -15 // РІСЂРµРјРµРЅРЅРѕРµ СЂРµС€РµРЅРёРµ
 			});
 			
-			$(".ls-text").each(function() { // переводим шорткоды в иконку внутри класса .ls-text
+			$(".ls-text").each(function() { // ГЇГҐГ°ГҐГўГ®Г¤ГЁГ¬ ГёГ®Г°ГІГЄГ®Г¤Г» Гў ГЁГЄГ®Г­ГЄГі ГўГ­ГіГІГ°ГЁ ГЄГ«Г Г±Г±Г  .ls-text
 				var original = $(this).html();
 				var converted = emojione.toImage(original);
 				console.log(emojione.toImage(original));
