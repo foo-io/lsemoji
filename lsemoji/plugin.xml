@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">LS Emoji</lang>
+	</name>
+	<author>
+		<lang name="default">dex-</lang>
+	</author>
+	<homepage>http://livestreet.ru/profile/dex-/</homepage>
+	<version>1.0</version>
+	<requires>
+		<livestreet>2.0</livestreet>
+		<plugins></plugins>
+	</requires>
+	<description>
+		<lang name="default">Best smiles for livestreet.</lang>
+		<lang name="russian">Отличные Emoji смайлики с настройками.</lang>
+	</description>
+</plugin>
